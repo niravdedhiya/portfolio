@@ -1,0 +1,56 @@
+.navbar-dark{
+    background-color: #512DA8; 
+}
+
+.about{
+  margin: 0px auto;
+  padding: 70px 30px;
+}
+
+nav-ul{
+    padding-left: 300px;
+    color: floralwhite;
+}
+
+.name{
+    font-family:'Georgia';
+    color: floralwhite;
+}
+
+.row-content{
+    padding-top: 20px;
+
+}
+
+img{
+    max-height: 400px;
+}
+
+p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+@media only screen and (min-width: 768px){
+.fa-1x{
+    color:#23acc4;
+    font-size: 2rem;
+}
+}
+
+@media only screen and (max-width: 767px){
+    .fa-1x{
+        color:#23acc4;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+}
+    
+
+@media only screen and (min-width: 768px) {
+    .space{
+        margin-bottom: 25px;
+        
+    }
+}
+
+
