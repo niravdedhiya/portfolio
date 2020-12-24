@@ -1,5 +1,10 @@
+body { background-image: linear-gradient(floralwhite,#A0CFEC,white); }
+
+html{background-color: white;}
+
 .navbar-dark{
     background-color: #512DA8; 
+    margin-bottom: 30px;
 }
 
 .about{
@@ -7,15 +12,23 @@
   padding: 70px 30px;
 }
 
-nav-ul{
-    padding-left: 300px;
-    color: floralwhite;
+li a:hover{
+    background:#1b9bff;
+    transition: .5s;
 }
+
+.nav-item{
+    text-transform: uppercase;
+}
+
 
 .name{
     font-family:'Georgia';
     color: floralwhite;
+    font-size: 20px;
 }
+
+#more {display: none;}
 
 .row-content{
     padding-top: 20px;
@@ -26,22 +39,20 @@ img{
     max-height: 400px;
 }
 
-p{
-    text-align: justify;
-    text-justify: inter-word;
-}
 @media only screen and (min-width: 768px){
 .fa-1x{
-    color:#23acc4;
+    color:#512DA8;
     font-size: 2rem;
+    -webkit-text-stroke: 0.5px black;
 }
 }
 
 @media only screen and (max-width: 767px){
     .fa-1x{
-        color:#23acc4;
+        color:#512DA8;
         font-size: 1.5rem;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
+        -webkit-text-stroke: 0.5px black;
     }
 }
     
@@ -54,3 +65,40 @@ p{
 }
 
 
+.card-title{
+    font-family:'Copperplate';
+    font-size: 30px;
+    color:#512DA8;
+}
+
+.card{
+    padding:10px 10px 10px 10px;
+    border-color:#512DA8;
+    border-top: 1px thick;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@media only screen and (min-width: 768px) {
+.card-desc{
+    margin-left:50px;
+    margin-right: 50px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-size: 1.25rem;
+}
+}
+
+@media only screen and (max-width: 767px){
+    .card-desc{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        font-size: 1rem;
+    }
+
+.section-title{
+    border-bottom: 1px;
+    border-color: black;
+}

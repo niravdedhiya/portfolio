@@ -8,8 +8,10 @@
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
         <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
@@ -21,14 +23,14 @@
                 <div class="name">NIRAV DEDHIYA</div>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active"><a class="nav-link" href="#about"><span class="fa fa-info fa-md"></span> About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#education"><span class="fa fa-graduation-cap fa-md"></span> Education</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#experience"><span class="fa fa-laptop-code fa-md"></span> Experience</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-info fa-md"></span> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="education.html"><span class="fa fa-graduation-cap fa-md"></span> Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="experience.html"><span class="fa fa-desktop fa-md"></span> Experience</a></li>
                         <li class="nav-item"><a class="nav-link" href="#project"><span class="fa fa-code fa-md"></span> Project</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#publication"><span class="fa fa-file-alt fa-md"></span> Publication</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#contact"><span class="fa fa-address-card fa-md"></span> Contact</a></li>      
+                        <li class="nav-item"><a class="nav-link" href="#publication"><span class="fa fa-file fa-md"></span> Publication</a></li>
                     </ul>
                 </div>
+                <a href="https://drive.google.com/file/d/1syWAITE0Qi1k-1Qmq0GRCfj4X0v-EqOw/view?usp=sharing" target="_blank" style="color: 	skyblue;margin-left:10px ;"><strong><u>Resume</u></strong></a>
                 
             </div>
     
@@ -40,34 +42,147 @@
             </div>
             <div class="col-md row-content">
                 <h3><strong>About Me</strong></h3>
-                <p>Hello tech enthusiasts, I am Nirav Dedhiya and I have completed my undergraduation in Computer
+                <p style="font-size: 18px;
+                text-align: justify;
+                text-justify: inter-word;">Hello tech enthusiasts, I am Nirav Dedhiya and I have completed undergraduation in Computer
                     Engineering. Mathematics being my favourite subject, combining my logical and mathematical skills with 
-                    techbology makes me a developer by profession. My interests lies in Data Science, Natural Language Processing,
+                    techbology makes me a developer by profession. My interests lies in <span id="dots"> ...</span><span id="more">Data Science, Natural Language Processing,
                     Machine Learning, Data Visualization, and Web Development, levaraging the tools and techniques in these field 
                     to develop scalable applications. I believe that age is just a number, one gets old only when he stops learning. I am open to learn new concepts. 
-                </p><br>
-                <div class="row space">
+                </span><a style="color: #1b9bff;" onclick="myFunction()" id="myBtn"><i><u>Read more</u></i></a></p>
+                
+                    <div class="row space">
                     <div class="col-md-6 d-md-flex align-items-md-stretch">
-                        <span class="fa fa-code fa-1x">&nbsp; 11 Projects</span>
+                        <span class="fa fa-code fa-1x">&nbsp; <span class="counter">11</span> Projects</span>
                     </div>
                     <div class="col-md-6 d-md-flex align-items-md-stretch">
-                        <span class="fa fa-file-alt fa-1x">&nbsp; 1 Publication</span>
+                        <span class="fa fa-file fa-1x">&nbsp; <span class="counter">1</span> Publication</span>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-6 d-md-flex align-items-md-stretch">
-                        <span class="fa fa-certificate fa-1x">&nbsp; 6 Certifications</span>
+                        <span class="fa fa-certificate fa-1x">&nbsp; <span class="counter">6</span> Certifications</span>
                     </div>
                     <div class="col-md-6 d-md-flex align-items-md-stretch">
-                        <span class="fa fa-award fa-1x">&nbsp; 3 Honors</span>
+                        <span class="fa fa-trophy fa-1x">&nbsp; <span class="counter">3</span> Honors</span>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="row" style="margin:10px;">
+            <div class="card p-0 col-12 shadow mb-4" style="background: #EBF4FA;">
+            <!-- Card Header - Accordion -->
+                <a href="#newlist" class="d-block card-header py-3" data-toggle="collapse" role="button" aria-expanded="true"
+                    aria-controls="newlist">
+                    <h5 class="ml-4 card-title">Skills &nabla;</h5>
+                </a>
+                <!-- Card Content - Collapse -->
+                <div class="collapse" id="newlist">
+                    <div class="card-body card-desc">
+                        <span class="fa fa-code fa-2x"></span><br>   
+                        <strong>Programming Languages:</strong>
+                        <p>Pyhton3, C++, Java, C, SQL, HTML5, Javascript, CSS</p><br>
+                
+                        <span class="fa fa-cogs fa-2x"></span><br>   
+                        <strong>Technical:</strong>
+                        <p>Data Science, Machine Learning, Natural Language Processing, Data Visualization, Web Development, Android Development</p><br>
+                        
+                        <span class="fa fa-laptop fa-2x"></span><br>   
+                        <strong>Libraries and Frameworks:</strong>
+                        <p>Tensorflow, Scikit-learn, Matplotlib, NLTK, Scipy, Pandas, Numpy, OpenCV,
+                            pyttsx3, Librosa, Flask, Django, React, Node.js, Firebase, plotly, chartjs</p><br>
+                        
+                        <span class="fa fa-database fa-2x"></span><br>   
+                        <strong>Database:</strong>
+                        <p>MySQL, Postgres, MongoDB</p><br>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+          
+        
+        <hr style="border-top: 1px solid;">
+    <footer class="footer">
+        <h2 style="margin-bottom: 20px;"><strong>Contact</strong></h2>
+        <div class="row">
+            
+            <div class="col-12 col-md-6">
+                <p><span class="fa fa-map-marker fa-lg"></span> Vapi, Gujarat, India</p>
+                <p><span class="fa fa-phone fa-lg"></span> +91 81400-71298</p>
+                <p><span class="fa fa-envelope fa-lg"></span> dedhiyanirav07@gmail.com</p>
+            </div>
+            <div class="col-12 col-md-6">
+            
+                <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/nirav-dedhiya-04b590160/" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp;
+                <a class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/results?search_query=niravdedhiya_official" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;
+                <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/nirxvv/" target="_blank"><i class="fa fa-instagram"></i></a>
+                
+            </div>
+        </div>
+        
+        <div class="footer-bottom" style="align-content: center;">
+            <p style="margin-top: 20px;text-align: center;">&copy; Copyright <strong>Lonely</strong>. All Rights reserved</p>
+        </div>
+    </footer>
+        </div>
+      
 
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            $('.counter').counterUp();
+        </script>       
+        <script>
+            document.querySelectorAll("button.read_more").forEach(function(button) {
+                button.addEventListener( 'click' , changeClass);
+                });
+
+                function changeClass() {
+                var content = document.getElementById("extra_content");
+                var buttons = document.querySelectorAll("button.read_more");
+
+                content.classList.toggle("show");
+
+                var buttonText = content.classList.contains("show") ? "Show Less" : "Show More";
+
+                buttons.forEach(function(button) {
+                    button.innerHTML = buttonText;
+                });
+                }
+        </script>
+        <script>
+            function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+
+                if (dots.style.display === "none") {
+                    dots.style.display = "inline";
+                    btnText.innerHTML = "Read more";
+                    moreText.style.display = "none";
+                } else {
+                    dots.style.display = "none";
+                    btnText.innerHTML = "Read less";
+                    moreText.style.display = "inline";
+                }
+                }
+        </script>
     </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
