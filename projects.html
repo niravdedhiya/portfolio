@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Nirav Dedhiya</title>
+        <style>
+            a:hover{
+                opacity: 0.7;
+            }
+            .text-block {
+                position: absolute;
+                top: 20px;
+                right: 30px;
+                background-color: black;
+                color: white;
+                padding-left: 20px;
+                padding-right: 20px;
+                }
+        </style>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-social/5.1.1/bootstrap-social.min.css" integrity="sha512-f8mUMCRNrJxPBDzPJx3n+Y5TC5xp6SmStstEfgsDXZJTcxBakoB5hvPLhAfJKa9rCvH+n3xpJ2vQByxLk4WP2g==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-dark fixed-top navbar-expand-md">
+            <div class="container">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="name">NIRAV DEDHIYA</div>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><span class="fa fa-info fa-md"></span> About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="education.html"><span class="fa fa-graduation-cap fa-md"></span> Education</a></li>
+                        <li class="nav-item"><a class="nav-link" href="experience.html"><span class="fa fa-desktop fa-md"></span> Experience</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><span class="fa fa-code fa-md"></span> Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="publication.html"><span class="fa fa-file fa-md"></span> Publication</a></li>
+                    </ul>
+                </div>
+                <a href="https://drive.google.com/file/d/1syWAITE0Qi1k-1Qmq0GRCfj4X0v-EqOw/view?usp=sharing" target="_blank" style="color: 	skyblue;float: right;"><span class="fa fa-link"></span><strong> Resume</strong></a>
+                
+            </div>
+    
+        </nav>
+        <div class="container">
+            <h2 style="padding-top: 80px;"><strong>Projects</strong></h2>
+            <hr style="height:20px">
+            
+            <div class="row">
+                <div class="column ml col-12 col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction()"><img src="images/music.jpg" alt="Dog's Breed Identification" class="img-fluid" style="height: 250px; width: 100%;">
+                        <h4 class="text-block">ML</h4>
+                        <h4 style="margin-top: 10px;">Music Genre Classification</h4></a>
+                        <ul id="music_content" style="display: none;text-align: justify;">
+                            <li>Extract metadata like byte counts, MFCC, etc. from audio file and analyse using librosa python library.</li>
+                            <li>Train the model over 10 different genres using Machine Learning classification algorithms like KNN, SVM and Deep Neural Network.</li>
+                            <li>Achieved 78% accuracy for the model for genre-based audio classification.</li>
+                        
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Music_Genre_Classification-1" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-primary" href="https://www.irjet.net/archives/V7/i7/IRJET-V7I7179.pdf" target="_blank"><i class="fa fa-file"></i></a>&nbsp;
+                            
+                        </ul>
+                    </div>
+                  </div>
+                <div class="column ml col-12 col-lg-4" style="margin-top: 20px;">
+                  <div class="content" style="background-color: #EBF4FA;
+                  padding: 10px;">
+                        <a onclick="myFunction1()"><img src="images/Dogsbreed.jpg" alt="Dog's Breed Identification" class="img-fluid" style="height: 250px;width: 100%;">
+                            <h4 class="text-block">ML</h4>
+                            <h4 style="margin-top: 10px;">Dog's Breed Identification</h4></a>
+                        <ul id="dog_content" style="display: none;text-align: justify;">
+                            <li>A project based on CNN and Computer Vision to identify
+                            dog’s breed from image of the dog.</li>
+                            <li>Model is trained using
+                                CNN over 120 breed classes yielding an accuracy of 85%.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Dog-s-breed-identification" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                            
+                        </ul>
+                  </div>
+                </div>
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                  <div class="content" style="background-color: #EBF4FA;
+                  padding: 10px;">
+                        <a onclick="myFunction2()"><img src="images/FaceDetection.jpg" alt="Face Identification" class="img-fluid" style="height: 250px;width:100%;" >
+                            <h4 class="text-block">AI</h4>
+                            <h4 style="margin-top: 10px;">Face Recognition and Identification</h4></a>
+                        <ul id="face_content" style="display: none;text-align: justify;">
+                            <li>A poject based on pattern evaluation to identify human face.</li>
+                            <li>Using OpenCV python library and image processing, project identifies the person's face and displays the person's information.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/FaceRecognition" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-google" href="https://www.youtube.com/watch?v=pEjYMJd4FWs&feature=youtu.be" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;
+                            
+                        </ul>
+                  </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction3()"><img src="images/mobilerevies.png" alt="Sentiment Analysis of Amazon Mobile Reviews" class="img-fluid" style="height: 250px;width: 100%;">
+                            <h4 class="text-block">NLP</h4>
+                            <h4 style="margin-top: 10px;">Sentiment Analysis of Amazon Mobile Reviews</h4></a>
+                        <ul id="mobile_content" style="display: none;text-align: justify;">
+                            <li>Sentiment analysis of reviews on mobiles purchased from amazon.</li>
+                            <li>Developed a model with 96% accuracy that predicts whether the new reviews of mobile phone on amazon are positive or negative.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Amazon_mobile_reviews_Sentiment_Analysis" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                        </ul>
+                    </div>
+                </div>
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction4()"><img src="images/speech.jpg" alt="Ally" class="img-fluid" style="height: 250px;width:100%;" >
+                            <h4 class="text-block">AI</h4>
+                            <h4 style="margin-top: 10px;">Ally- AI voice bot</h4></a>
+                        <ul id="voice_content" style="display: none;text-align: justify;">
+                            <li>Based on Speech Recognition and AI.</li>
+                            <li>Customized voice bot built using sapi5 APIs of Microsoft and pyttsx3 python library.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Ally-a_voice_bot" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-google" href="https://www.youtube.com/watch?v=_WAc96MRGIA&feature=youtu.be" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;
+                        </ul>
+                    </div>
+                </div>
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction5()"><img src="images/breastcancer.jpg" alt="Breast Cancer" class="img-fluid" style="height: 250px;width:100%;" >
+                            <h4 class="text-block">ML</h4>
+                            <h4 style="margin-top: 10px;">Breast Cancer Prediction</h4></a>
+                        <ul id="cancer_content" style="display: none;text-align: justify;">
+                            <li>The ML model is trained on Breast Cancer Wisconsin (Diagnostic) Database.</li>
+                            <li>Used KNN classification algorithm to train classifier and got a 91.6%
+                                accuracy of model that can help diagnose patients.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Breast-Cancer-Prediction" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction6()"><img src="images/tictactoe.jpg" alt="TIC TAC TOE" class="img-fluid" style="height: 250px;width: 100%;">
+                            <h4 class="text-block">Android</h4>
+                            <h4 style="margin-top: 10px;">Connect Smilies- TIC TAC TOE</h4></a>
+                        <ul id="tictactoe_content" style="display: none;text-align: justify;">
+                            <li>TIC TAC TOE android game with interesting graphics and animations.</li>
+                            <li>A usual game with 4x4 grid play as an additional feature.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Connect-Smilies" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-google" href="https://www.youtube.com/watch?v=VJcTIkjvQds&t=10s" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;
+                        </ul>
+                    </div>
+                </div>
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction7()"><img src="images/drugs.jpg" alt="Spurious drugs" class="img-fluid" style="height: 250px;width:100%;" >
+                            <h4 class="text-block">Web</h4>
+                            <h4 style="margin-top: 10px;">Tracking of Spurious Drugs</h4></a>
+                        <ul id="drugs_content" style="display: none;text-align: justify;">
+                            <li>Smart India Hackathon, 2019 finals project.</li>
+                            <li>Built an Android app that scans the QR code on the drug to verify its originality.</li>
+                            <li>The android app is connected through django APIs that works in the backend to process the request.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction8()"><img src="images/building.jpg" alt="Building Management" class="img-fluid" style="height: 250px;width:100%;" >
+                            <h4 class="text-block">Android</h4>
+                            <h4 style="margin-top: 10px;">Bulding Management</h4></a>
+                        <ul id="building_content" style="display: none;text-align: justify;">
+                            <li>An Android app that enables residents to directly convey their woes to the secretary.</li>
+                            <li>Easy way to handle issues in large socities, app allows secretary to make announcements that eventually gets notified to the residents.</li>
+                            <li>App also provides the contacts for plumber, electrician, milkman, etc. nearby to the residents.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/buildingmanagement" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top: 20px;">
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction11()"><img src="images/credit.jpg" alt="Drive Encryption" class="img-fluid" style="height: 250px;width: 100%;">
+                            <h4 class="text-block">Android</h4>
+                            <h4 style="margin-top: 10px;">Credit Management App</h4></a>
+                        <ul id="credit_content" style="display: none;text-align: justify;">
+                            <li>A part of my internship at The Sparks.</li>
+                            <li>This app helps to track and manage the credits of employees.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/CreditManagement" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-google" href="https://www.youtube.com/watch?v=AcCo4hMI-d4&t=3s" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;
+                        </ul>
+                    </div>
+                </div>
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction9()"><img src="images/encryption.jpg" alt="Drive Encryption" class="img-fluid" style="height: 250px;width: 100%;">
+                            <h4 class="text-block">Console</h4>
+                            <h4 style="margin-top: 10px;">Drive Encryption Software</h4></a>
+                        <ul id="drive_content" style="display: none;text-align: justify;">
+                            <li>Design Engineering Project.</li>
+                            <li>A encryption software in C++ to secure the
+                                confidential drives or folders.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction10()"><img src="images/phrase.png" alt="Phrase Coverter" class="img-fluid" style="height: 250px;width:100%;" >
+                            <h4 class="text-block">Android</h4>
+                            <h4 style="margin-top: 10px;">Phrase Converter App</h4></a>
+                        <ul id="phrase_content" style="display: none;text-align: justify;">
+                            <li>A language conversion App.</li>
+                            <li>This app helps overcome the communication gap by announcing the general phrases into desired language.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-google" href="https://www.youtube.com/watch?v=6YmS-Jnc8QA" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        <hr style="border-top: 1px solid;">
+    <footer class="footer">
+        <h2 style="margin-bottom: 20px;"><strong>Contact</strong></h2>
+        <div class="row">
+            
+            <div class="col-12 col-md-6">
+                <p><span class="fa fa-map-marker fa-lg"></span> Vapi, Gujarat, India</p>
+                <p><span class="fa fa-phone fa-lg"></span> +91 81400-71298</p>
+                <p><span class="fa fa-envelope fa-lg"></span> dedhiyanirav07@gmail.com</p>
+            </div>
+            <div class="col-12 col-md-6">
+            
+                <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/nirav-dedhiya-04b590160/" target="_blank"><i class="fa fa-linkedin"></i></a>&nbsp;
+                <a class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/results?search_query=niravdedhiya_official" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;
+                <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/nirxvv/" target="_blank"><i class="fa fa-instagram"></i></a>
+                
+            </div>
+        </div>
+        
+        <div class="footer-bottom" style="align-content: center;">
+            <p style="margin-top: 20px;text-align: center;">&copy; Copyright <strong>Lonely</strong>. All Rights reserved</p>
+        </div>
+    </footer>
+</div>
+      
+
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            function myFunction() {
+            var x = document.getElementById("music_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction1() {
+            var x = document.getElementById("dog_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction2() {
+            var x = document.getElementById("face_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction3() {
+            var x = document.getElementById("mobile_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction4() {
+            var x = document.getElementById("voice_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction5() {
+            var x = document.getElementById("cancer_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction6() {
+            var x = document.getElementById("tictactoe_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction7() {
+            var x = document.getElementById("drugs_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction8() {
+            var x = document.getElementById("building_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction9() {
+            var x = document.getElementById("drive_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction10() {
+            var x = document.getElementById("phrase_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+            function myFunction11() {
+            var x = document.getElementById("credit_content");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+        </script>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
