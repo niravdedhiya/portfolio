@@ -51,15 +51,66 @@
         <div class="container">
             <h2 style="padding-top: 80px;"><strong>Projects</strong></h2>
             <hr style="height:20px">
+
+
+            <div class="row">
+                <div class="column ml col-12 col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction11()"><img src="images/taxi.jpg" alt="NYC Taxi Hotspot Analysis" class="img-fluid" style="height: 250px; width: 100%;">
+                        <h4 class="text-block">DDS</h4>
+                        <h4 style="margin-top: 10px;">NYC Taxi Hotspot Analysis</h4></a>
+                        <ul id="taxi" style="display: none;text-align: justify;">
+                            <li>Implemented an algorithm to find significant hotspot cells in time and space employing the Getis-Ord Statistic.</li>
+                            <li>Performed distributed database operations such as data fragmentation, query processing, parallel sorting, and parallel joins by applying multithreading, equijoin operations. Leveraged the concepts related to Map, Filter and Reduce operations.</li>
+                            <li>Technologies: Python, Java, Spark, Scala, Hadoop, Apache Sedona</li>
+            
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/NYC-Taxi-Hotspot-Analysis" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                            
+                            
+                        </ul>
+                    </div>
+                  </div>
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction10()"><img src="images/restro.png" alt="Smart Restro" class="img-fluid" style="height: 250px;width:100%;" >
+                            <h4 class="text-block">Web</h4>
+                            <h4 style="margin-top: 10px;">Smart Restro</h4></a>
+                        <ul id="restro" style="display: none;text-align: justify;">
+                            <li>An interactive Smart Restaurant Website developed using React.js and Node.js for easy management of restaurant services for owner as well as customers.</li>
+                            <li>Frontend was devised in HTML5, CSS3, JavaScript using React/Redux architecture. Backend was enforced in Express.js Framework and whole project hosted on the MongoDB server.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Smart-Restro" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                        </ul>
+                    </div>
+                </div>
+                <div class="column ml col-12 col-lg-4" style="margin-top: 20px;">
+                  <div class="content" style="background-color: #EBF4FA;
+                  padding: 10px;">
+                        <a onclick="myFunction9()"><img src="images/Dogsbreed.jpg" alt="Dog's Breed Identification" class="img-fluid" style="height: 250px;width: 100%;">
+                            <h4 class="text-block">ML</h4>
+                            <h4 style="margin-top: 10px;">Dog's Breed Identification</h4></a>
+                        <ul id="dog" style="display: none;text-align: justify;">
+                            <li>A project based on CNN and Computer Vision to identify
+                            dog’s breed from image of the dog.</li>
+                            <li>Model is trained using
+                                CNN over 120 breed classes yielding an accuracy of 85%.</li>
+                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Dog-s-breed-identification" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
+                            
+                        </ul>
+                  </div>
+                </div>
+                
+            </div>
             
             <div class="row">
                 <div class="column ml col-12 col-lg-4" style="margin-top: 20px;">
                     <div class="content" style="background-color: #EBF4FA;
                     padding: 10px;">
-                        <a onclick="myFunction()"><img src="images/music.jpg" alt="Dog's Breed Identification" class="img-fluid" style="height: 250px; width: 100%;">
+                        <a onclick="myFunction8()"><img src="images/music.jpg" alt="Dog's Breed Identification" class="img-fluid" style="height: 250px; width: 100%;">
                         <h4 class="text-block">ML</h4>
                         <h4 style="margin-top: 10px;">Music Genre Classification</h4></a>
-                        <ul id="music_content" style="display: none;text-align: justify;">
+                        <ul id="music" style="display: none;text-align: justify;">
                             <li>Extract metadata like byte counts, MFCC, etc. from audio file and analyse using librosa python library.</li>
                             <li>Train the model over 10 different genres using Machine Learning classification algorithms like KNN, SVM and Deep Neural Network.</li>
                             <li>Achieved 78% accuracy for the model for genre-based audio classification.</li>
@@ -73,10 +124,10 @@
                 <div class="column ml col-lg-4" style="margin-top: 20px;">
                     <div class="content" style="background-color: #EBF4FA;
                     padding: 10px;">
-                        <a onclick="myFunction10()"><img src="images/phrase.png" alt="Phrase Coverter" class="img-fluid" style="height: 250px;width:100%;" >
+                        <a onclick="myFunction7()"><img src="images/phrase.png" alt="Phrase Coverter" class="img-fluid" style="height: 250px;width:100%;" >
                             <h4 class="text-block">Console</h4>
                             <h4 style="margin-top: 10px;">Morpher- Lets Translate!</h4></a>
-                        <ul id="phrase_content" style="display: none;text-align: justify;">
+                        <ul id="phrase" style="display: none;text-align: justify;">
                             <li>A console software for language and currency conversion.</li>
                             <li>Helps overcome the communication gap by converting and announcing the phrases into desired languages.</li>
                             <li>Functionality of Currency conversion among various forms is also supported.</li>
@@ -85,21 +136,18 @@
                         </ul>
                     </div>
                 </div>
-                <div class="column ml col-12 col-lg-4" style="margin-top: 20px;">
-                  <div class="content" style="background-color: #EBF4FA;
-                  padding: 10px;">
-                        <a onclick="myFunction1()"><img src="images/Dogsbreed.jpg" alt="Dog's Breed Identification" class="img-fluid" style="height: 250px;width: 100%;">
-                            <h4 class="text-block">ML</h4>
-                            <h4 style="margin-top: 10px;">Dog's Breed Identification</h4></a>
-                        <ul id="dog_content" style="display: none;text-align: justify;">
-                            <li>A project based on CNN and Computer Vision to identify
-                            dog’s breed from image of the dog.</li>
-                            <li>Model is trained using
-                                CNN over 120 breed classes yielding an accuracy of 85%.</li>
-                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Dog-s-breed-identification" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
-                            
+                <div class="column ml col-lg-4" style="margin-top: 20px;">
+                    <div class="content" style="background-color: #EBF4FA;
+                    padding: 10px;">
+                        <a onclick="myFunction6()"><img src="images/drugs.jpg" alt="Spurious drugs" class="img-fluid" style="height: 250px;width:100%;" >
+                            <h4 class="text-block">Web</h4>
+                            <h4 style="margin-top: 10px;">Tracking of Spurious Drugs</h4></a>
+                        <ul id="drugs" style="display: none;text-align: justify;">
+                            <li>Smart India Hackathon, 2019 finals project.</li>
+                            <li>Built an Android app that scans the QR code on the drug to verify its originality.</li>
+                            <li>The android app is connected through django APIs that works in the backend to process the request.</li>
                         </ul>
-                  </div>
+                    </div>
                 </div>
                 
             </div>
@@ -107,10 +155,10 @@
                 <div class="column ml col-lg-4" style="margin-top: 20px;">
                   <div class="content" style="background-color: #EBF4FA;
                   padding: 10px;">
-                        <a onclick="myFunction2()"><img src="images/FaceDetection.jpg" alt="Face Identification" class="img-fluid" style="height: 250px;width:100%;" >
+                        <a onclick="myFunction5()"><img src="images/FaceDetection.jpg" alt="Face Identification" class="img-fluid" style="height: 250px;width:100%;" >
                             <h4 class="text-block">CV</h4>
                             <h4 style="margin-top: 10px;">Face Recognition and Identification</h4></a>
-                        <ul id="face_content" style="display: none;text-align: justify;">
+                        <ul id="face" style="display: none;text-align: justify;">
                             <li>A poject based on pattern evaluation to identify human face.</li>
                             <li>Using OpenCV python library and image processing, project identifies the person's face and displays the person's information.</li>
                             <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/FaceRecognition" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
@@ -122,10 +170,10 @@
                 <div class="column ml col-lg-4" style="margin-top: 20px;">
                     <div class="content" style="background-color: #EBF4FA;
                     padding: 10px;">
-                        <a onclick="myFunction3()"><img src="images/mobilerevies.png" alt="Sentiment Analysis of Amazon Mobile Reviews" class="img-fluid" style="height: 250px;width: 100%;">
+                        <a onclick="myFunction4()"><img src="images/mobilerevies.png" alt="Sentiment Analysis of Amazon Mobile Reviews" class="img-fluid" style="height: 250px;width: 100%;">
                             <h4 class="text-block">NLP</h4>
                             <h4 style="margin-top: 10px;">Sentiment Analysis of Amazon Mobile Reviews</h4></a>
-                        <ul id="mobile_content" style="display: none;text-align: justify;">
+                        <ul id="mobile" style="display: none;text-align: justify;">
                             <li>Sentiment analysis of reviews on mobiles purchased from amazon.</li>
                             <li>Developed a model with 96% accuracy that predicts whether the new reviews of mobile phone on amazon are positive or negative.</li>
                             <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Amazon_mobile_reviews_Sentiment_Analysis" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
@@ -135,10 +183,10 @@
                 <div class="column ml col-lg-4" style="margin-top: 20px;">
                     <div class="content" style="background-color: #EBF4FA;
                     padding: 10px;">
-                        <a onclick="myFunction4()"><img src="images/speech.jpg" alt="Ally" class="img-fluid" style="height: 250px;width:100%;" >
+                        <a onclick="myFunction3()"><img src="images/speech.jpg" alt="Ally" class="img-fluid" style="height: 250px;width:100%;" >
                             <h4 class="text-block">AI</h4>
                             <h4 style="margin-top: 10px;">Ally- AI voice bot</h4></a>
-                        <ul id="voice_content" style="display: none;text-align: justify;">
+                        <ul id="voice" style="display: none;text-align: justify;">
                             <li>Based on Speech Recognition and AI.</li>
                             <li>Customized voice bot built using sapi5 APIs of Microsoft and pyttsx3 python library.</li>
                             <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Ally-a_voice_bot" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
@@ -152,10 +200,10 @@
                 <div class="column ml col-lg-4" style="margin-top: 20px;">
                     <div class="content" style="background-color: #EBF4FA;
                     padding: 10px;">
-                        <a onclick="myFunction5()"><img src="images/breastcancer.jpg" alt="Breast Cancer" class="img-fluid" style="height: 250px;width:100%;" >
+                        <a onclick="myFunction2()"><img src="images/breastcancer.jpg" alt="Breast Cancer" class="img-fluid" style="height: 250px;width:100%;" >
                             <h4 class="text-block">ML</h4>
                             <h4 style="margin-top: 10px;">Breast Cancer Prediction</h4></a>
-                        <ul id="cancer_content" style="display: none;text-align: justify;">
+                        <ul id="cancer" style="display: none;text-align: justify;">
                             <li>The ML model is trained on Breast Cancer Wisconsin (Diagnostic) Database.</li>
                             <li>Used KNN classification algorithm to train classifier and got a 91.6%
                                 accuracy of model that can help diagnose patients.</li>
@@ -166,10 +214,10 @@
                 <div class="column ml col-lg-4" style="margin-top: 20px;">
                     <div class="content" style="background-color: #EBF4FA;
                     padding: 10px;">
-                        <a onclick="myFunction6()"><img src="images/tictactoe.jpg" alt="TIC TAC TOE" class="img-fluid" style="height: 250px;width: 100%;">
+                        <a onclick="myFunction1()"><img src="images/tictactoe.jpg" alt="TIC TAC TOE" class="img-fluid" style="height: 250px;width: 100%;">
                             <h4 class="text-block">Android</h4>
                             <h4 style="margin-top: 10px;">Connect Smilies- TIC TAC TOE</h4></a>
-                        <ul id="tictactoe_content" style="display: none;text-align: justify;">
+                        <ul id="tictactoe" style="display: none;text-align: justify;">
                             <li>TIC TAC TOE android game with interesting graphics and animations.</li>
                             <li>A usual game with 4x4 grid play as an additional feature.</li>
                             <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/Connect-Smilies" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
@@ -180,26 +228,10 @@
                 <div class="column ml col-lg-4" style="margin-top: 20px;">
                     <div class="content" style="background-color: #EBF4FA;
                     padding: 10px;">
-                        <a onclick="myFunction7()"><img src="images/drugs.jpg" alt="Spurious drugs" class="img-fluid" style="height: 250px;width:100%;" >
-                            <h4 class="text-block">Web</h4>
-                            <h4 style="margin-top: 10px;">Tracking of Spurious Drugs</h4></a>
-                        <ul id="drugs_content" style="display: none;text-align: justify;">
-                            <li>Smart India Hackathon, 2019 finals project.</li>
-                            <li>Built an Android app that scans the QR code on the drug to verify its originality.</li>
-                            <li>The android app is connected through django APIs that works in the backend to process the request.</li>
-                        </ul>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="row" style="margin-top: 20px;">
-                <div class="column ml col-lg-4" style="margin-top: 20px;">
-                    <div class="content" style="background-color: #EBF4FA;
-                    padding: 10px;">
-                        <a onclick="myFunction8()"><img src="images/building.jpg" alt="Building Management" class="img-fluid" style="height: 250px;width:100%;" >
+                        <a onclick="myFunction()"><img src="images/building.jpg" alt="Building Management" class="img-fluid" style="height: 250px;width:100%;" >
                             <h4 class="text-block">Android</h4>
                             <h4 style="margin-top: 10px;">Bulding Management</h4></a>
-                        <ul id="building_content" style="display: none;text-align: justify;">
+                        <ul id="building" style="display: none;text-align: justify;">
                             <li>An Android app that enables residents to directly convey their woes to the secretary.</li>
                             <li>Easy way to handle issues in large socities, app allows secretary to make announcements that eventually gets notified to the residents.</li>
                             <li>App also provides the contacts for plumber, electrician, milkman, etc. nearby to the residents.</li>
@@ -207,35 +239,9 @@
                         </ul>
                     </div>
                 </div>
-                <div class="column ml col-lg-4" style="margin-top: 20px;">
-                    <div class="content" style="background-color: #EBF4FA;
-                    padding: 10px;">
-                        <a onclick="myFunction11()"><img src="images/credit.jpg" alt="Drive Encryption" class="img-fluid" style="height: 250px;width: 100%;">
-                            <h4 class="text-block">Android</h4>
-                            <h4 style="margin-top: 10px;">Credit Management App</h4></a>
-                        <ul id="credit_content" style="display: none;text-align: justify;">
-                            <li>A part of my internship at The Sparks.</li>
-                            <li>This app helps to track and manage the credits of employees.</li>
-                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya/CreditManagement" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
-                            <a style="margin-top: 10px;" class="btn btn-social-icon btn-google" href="https://www.youtube.com/watch?v=AcCo4hMI-d4&t=3s" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;
-                        </ul>
-                    </div>
-                </div>
-                <div class="column ml col-lg-4" style="margin-top: 20px;">
-                    <div class="content" style="background-color: #EBF4FA;
-                    padding: 10px;">
-                        <a onclick="myFunction9()"><img src="images/encryption.jpg" alt="Drive Encryption" class="img-fluid" style="height: 250px;width: 100%;">
-                            <h4 class="text-block">Console</h4>
-                            <h4 style="margin-top: 10px;">Drive Encryption Software</h4></a>
-                        <ul id="drive_content" style="display: none;text-align: justify;">
-                            <li>Design Engineering Project.</li>
-                            <li>A encryption software in C++ to secure the
-                                confidential drives or folders.</li>
-                        </ul>
-                    </div>
-                </div>
-          
+                
             </div>
+            
             <br><br>
         <hr style="border-top: 1px solid;">
     <footer class="footer">
@@ -271,7 +277,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script>
             function myFunction() {
-            var x = document.getElementById("music_content");
+            var x = document.getElementById("building");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -279,7 +285,7 @@
             }
             }
             function myFunction1() {
-            var x = document.getElementById("dog_content");
+            var x = document.getElementById("tictactoe");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -287,7 +293,7 @@
             }
             }
             function myFunction2() {
-            var x = document.getElementById("face_content");
+            var x = document.getElementById("cancer");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -295,7 +301,7 @@
             }
             }
             function myFunction3() {
-            var x = document.getElementById("mobile_content");
+            var x = document.getElementById("voice");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -303,7 +309,7 @@
             }
             }
             function myFunction4() {
-            var x = document.getElementById("voice_content");
+            var x = document.getElementById("mobile");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -311,7 +317,7 @@
             }
             }
             function myFunction5() {
-            var x = document.getElementById("cancer_content");
+            var x = document.getElementById("face");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -319,7 +325,7 @@
             }
             }
             function myFunction6() {
-            var x = document.getElementById("tictactoe_content");
+            var x = document.getElementById("drugs");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -327,7 +333,7 @@
             }
             }
             function myFunction7() {
-            var x = document.getElementById("drugs_content");
+            var x = document.getElementById("phrase");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -335,7 +341,7 @@
             }
             }
             function myFunction8() {
-            var x = document.getElementById("building_content");
+            var x = document.getElementById("music");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -343,7 +349,7 @@
             }
             }
             function myFunction9() {
-            var x = document.getElementById("drive_content");
+            var x = document.getElementById("dog");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -351,7 +357,7 @@
             }
             }
             function myFunction10() {
-            var x = document.getElementById("phrase_content");
+            var x = document.getElementById("restro");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
@@ -359,7 +365,7 @@
             }
             }
             function myFunction11() {
-            var x = document.getElementById("credit_content");
+            var x = document.getElementById("taxi");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
