@@ -53,7 +53,7 @@
                         <br>
                         <h4><strong><u>ARIZONA STATE UNIVERSITY, TEMPE</u></strong></h4> <br>
                         <h4 style="color:#512DA8; -webkit-text-stroke: 0.5px black; padding-bottom: 10px;"><i>CGPA:- <span class="counter">4.17/4.00</span></i></h4>
-                        <a onclick="myFunction()" style="color: #123C98;font-size: 20px;"><u><i>Subjects studied  &darr; </u></i></a>
+                        <a onclick="myFunction4()" style="color: #123C98;font-size: 20px;"><u><i>Subjects studied  &darr; </u></i></a>
                         <p id="Courses" style="font-size: 17px;display: none;">Distributed Database Systems, Foundations of Algorithms, 
                         Statistical Machine Learning, Data Mining, Knowledge Representation, Data Intensive Systems for ML, Data Visualization, Semantic Web Mining, Software Verfification/Validation/Testing</p>
                             <br>
@@ -117,7 +117,7 @@
                         <a class="btn btn-social-icon btn-linkedin" href="https://www.linkedin.com/in/nirav-dedhiya-04b590160/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>&nbsp;
                         <a class="btn btn-social-icon btn-github" href="https://github.com/niravdedhiya" target="_blank"><i class="fa fa-github"></i></a>&nbsp;
                         <a class="btn btn-social-icon btn-google" href="https://www.youtube.com/results?search_query=niravdedhiya_official" target="_blank"><i class="fa fa-youtube"></i></a>&nbsp;
-                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/nirxvv/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a class="btn btn-social-icon btn-instagram" href="https://www.instagram.com/nirxv.py/" target="_blank"><i class="fa fa-instagram"></i></a>
                         
                     </div>
                 </div>
@@ -138,6 +138,16 @@
         <script>
             function myFunction() {
             var x = document.getElementById("Courses");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+            }
+        </script>
+        <script>
+            function myFunction4() {
+            var x = document.getElementById("honors");
             if (x.style.display === "none") {
                 x.style.display = "block";
             } else {
